@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Basic Reset & Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+  color: #f0f0f0;
+}
+
+/* Login Wrapper */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+/* Login Card */
+.login-form-card {
+  background-color: #1e1e2f;
+  padding: 48px 32px;
+  border-radius: 16px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  border: 1px solid #3a3a5a;
+  transition: all 0.3s ease;
+}
+
+.login-form-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7);
+}
+
+/* Form Styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Title */
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #00ffff; /* Neon cyan accent */
+  text-shadow: 0 0 10px #00ffff50;
+}
+
+/* Input Fields */
+.login-form input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #444466;
+  border-radius: 10px;
+  background-color: #2a2a3f;
+  font-size: 1rem;
+  color: #f0f0f0;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.login-form input::placeholder {
+  color: #a0a0b0;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #00ffff;
+  box-shadow: 0 0 10px #00ffff70;
+  background-color: #333353;
+}
+
+/* Submit Button */
+.login-form-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #00ffff; /* Neon cyan */
+  color: #1e1e2f;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.login-form-button:hover {
+  background-color: #00cccc;
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px #00ffffaa;
+}
+
+/* Register Link */
+.login-register-link {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #8888aa;
+}
+
+.login-register-link-text {
+  color: #00ffff;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 4px;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.login-register-link-text:hover {
+  color: #00cccc;
+  text-shadow: 0 0 6px #00cccc99;
+}
