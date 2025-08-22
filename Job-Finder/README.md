@@ -1,62 +1,46 @@
-🔍 ProSearch - Professional Discovery Platform
-ProSearch is a cutting-edge web platform that streamlines the process of finding and connecting with skilled professionals including engineers, designers, and developers. The application features an intuitive interface, real-time search capabilities, and comprehensive profile displays to make talent discovery effortless.
+Job-Finder 
+Job-Finder is a cutting-edge web platform that connects clients with skilled professionals across various domains including engineering, design, and software development. The application offers an intuitive interface combined with powerful search capabilities to streamline the process of finding the right expertise for any project.
 
-✨ Core Capabilities
-🔎 Instant Professional Lookup
-Quickly locate professionals by simply typing their name
-⚡ Live Search Results
-See matching profiles immediately in an organized grid format
-🎨 Streamlined User Experience
-Clean, minimal design ensures easy navigation
-📋 Comprehensive Profiles
-Individual pages highlighting each professional's expertise, portfolio, and position
-📱 Multi-Device Compatibility
-Seamlessly adapts to smartphones, tablets, and desktop computers
-🔐 Secure Access Control
-Protected login and account creation system
-🔌 API-Driven Content
-Professional data and search results powered by backend services
-🧩 Modular Framework
-Component-based architecture supports easy expansion
-⚡ Optimized Performance
-Enhanced speed through Vite and TypeScript implementation
+✨ Key Capabilities
+Talent Discovery: Locate professionals by searching through their names and expertise areas.
+Real-time Results: View search outcomes in an adaptive, grid-based layout that responds to your screen size.
+User-Friendly Interface: Navigate through a streamlined, accessible design that prioritizes user experience.
+Detailed Professional Profiles: Access comprehensive pages showcasing individual skills, portfolio projects, and expertise.
+Cross-Device Compatibility: Seamlessly browse on any device - from smartphones to desktop computers.
+Secure Access System: Complete authentication flow for user registration and login processes.
+Live Data Integration: Connect with backend services to retrieve up-to-date professional information.
 
-🛠️ Technical Stack
-💻 Client-Side:
-
-⚛️ React – Modern component architecture
-⚡ Vite – High-speed development and build environment
-📘 TypeScript – Type-safe development for maintainable code
-🎨 CSS – Custom responsive styling
-🗺️ React Router DOM – Seamless page navigation
-
-🖥️ Server-Side (Current/Future):
-
-🔍 searchUsersApi – User data retrieval service
-🟢 Node.js/Express (roadmap) – Server framework development
-🍃 MongoDB (roadmap) – Professional profile database
+🔧 Technical Stack
+Server-Side Integration:
+searchUsersApi - External service integration for professional data retrieval.
+Client-Side Development:
+React - Component-based UI framework for interactive web applications.
+Vite - Lightning-fast development and build tooling for modern web projects.
+React Router DOM - Client-side routing system for single-page application navigation.
 
 
-📖 How to Use
-🧭 Browse
-Navigate through different sections using the top menu
-🔍 Discover
-Type a professional's name (like "Sulav Pokhrel") and hit Enter or click the Search button
-👤 Explore Profiles
-View detailed information including expertise, projects, and professional background
-👥 Account Features
-Create an account or sign in for enhanced functionality (coming soon)
+🛠️ Setup Instructions
+Frontend Setup
+bash# Clone the repository
+git clone https://github.com/your-username/job-finder.git
+cd job-finder/frontend
 
-🚀 Planned Improvements
-📝 Profile Management
-Enable professionals to modify their information
-🔧 Enhanced Filtering
-Search by specific skills, experience level, and geographic location
-💬 Communication Tools
-Direct messaging and connection features between users
-📊 Analytics Dashboard
-Profile performance insights and user engagement metrics
-🤖 Smart Suggestions
-AI-powered professional recommendations based on search history
-🏗️ Complete Backend System
-Full server infrastructure to replace current API dependencies
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+Backend Setup
+bash# Navigate to backend directory
+cd backend
+
+# Install dependencies
+npm install
+
+# Start the server
+npm run dev
+
+ Planned Features
+ Enhanced Search Options: Implement filtering by geographical location, years of experience, and specialized skill categories.
+
