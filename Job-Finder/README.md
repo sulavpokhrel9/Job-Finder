@@ -1,60 +1,36 @@
-ProSearch Website
+ProSearch - Professional Discovery Platform
+ProSearch is a cutting-edge web platform that streamlines the process of finding and connecting with skilled professionals including engineers, designers, and developers. The application features an intuitive interface, real-time search capabilities, and comprehensive profile displays to make talent discovery effortless.
+Core Capabilities
+Instant Professional Lookup: Quickly locate professionals by simply typing their name
+Live Search Results: See matching profiles immediately in an organized grid format
+Streamlined User Experience: Clean, minimal design ensures easy navigation
+Comprehensive Profiles: Individual pages highlighting each professional's expertise, portfolio, and position
+Multi-Device Compatibility: Seamlessly adapts to smartphones, tablets, and desktop computers
+Secure Access Control: Protected login and account creation system
+API-Driven Content: Professional data and search results powered by backend services
+Modular Framework: Component-based architecture supports easy expansion
+Optimized Performance: Enhanced speed through Vite and TypeScript implementation
+Technical Stack
+Client-Side:
 
-ProSearch is a modern web application designed to help users discover and connect with professionals such as engineers, designers, and developers. It offers a responsive interface, dynamic search functionality, and dedicated profile pages to simplify the process of finding the right talent.
+React – Modern component architecture
+Vite – High-speed development and build environment
+TypeScript – Type-safe development for maintainable code
+CSS – Custom responsive styling
+React Router DOM – Seamless page navigation
 
-Features
+Server-Side (Current/Future):
 
-Professional Search: Search professionals quickly by entering their name.
+searchUsersApi – User data retrieval service
+Node.js/Express (roadmap) – Server framework development
+MongoDB (roadmap) – Professional profile database
 
-Dynamic Search Results: View results instantly in a responsive grid layout.
-
-User-Friendly Interface: Minimal and clean UI for smooth navigation.
-
-Profile Pages: Dedicated pages showcasing each professional’s skills, projects, and role.
-
-Responsive Design: Fully optimized for mobile, tablet, and desktop.
-
-User Authentication: Secure login and registration functionality.
-
-Dynamic Data Integration: Profile and search data fetched from backend APIs.
-
-Scalable Architecture: Built with modular components for future growth.
-
-Fast Performance: Optimized using Vite and TypeScript for speed and reliability.
-
-Technologies Used
-
-Frontend:
-
-React – Component-based UI development.
-
-Vite – Lightning-fast build and development tool.
-
-TypeScript – Strongly typed language for scalable applications.
-
-CSS – Custom styling for flexible and lightweight design.
-
-React Router DOM – For declarative routing and navigation.
-
-Backend (External/Planned):
-
-searchUsersApi – External API to fetch user data.
-
-Node.js/Express (planned) – For building a custom backend.
-
-MongoDB (planned) – To store user profiles and projects.
-
-Usage
-
-Navigation: Use the navigation bar to move between search and profile pages.
-
-Search: Enter a name (e.g., Srijan) and press Enter or click Search to find professionals.
-
-Profile Page: Displays details such as full name, role, skills, and projects.
-
-Account Management: Register or log in to access personalized features (planned).
-
-Project Structure (Frontend)
+How to Use
+Browse: Navigate through different sections using the top menu
+Discover: Type a professional's name (like "Sulav Pokhrel") and hit Enter or click the Search button
+Explore Profiles: View detailed information including expertise, projects, and professional background
+Account Features: Create an account or sign in for enhanced functionality (coming soon)
+Application Architecture
 frontend/
 ├── public/
 ├── src/
@@ -63,31 +39,22 @@ frontend/
 │   │   └── account.png
 │   ├── features/
 │   │   ├── home/
-│   │   │   ├── Home.tsx        # Main search page component
-│   │   │   └── home.css        # Styles for Home
+│   │   │   ├── Home.tsx        # Search interface component
+│   │   │   └── home.css        # Home page styling
 │   │   ├── profile/
-│   │   │   ├── Profile.tsx     # Profile page component
-│   │   │   └── profile.css     # Styles for Profile
-│   │   └── ... (additional modules)
+│   │   │   ├── Profile.tsx     # Individual profile component
+│   │   │   └── profile.css     # Profile page styling
+│   │   └── ... (expandable modules)
 │   └── shared/
 │       └── config/
-│           └── api.ts          # API service for search
-│   ├── App.tsx                 # Root application component
-│   ├── main.tsx                # Entry point for React app
-└── ... (package.json, tsconfig.json, vite.config.ts, etc.)
-
-
-
-Future Enhancements
-
-Profile Editing: Allow professionals to update their details.
-
-Advanced Search Filters: Add filtering by skills, experience, and location.
-
-Contact System: Enable users to directly message or connect with professionals.
-
-Dashboard: Provide users with insights and analytics about their profile.
-
-Recommendations: Suggest professionals based on previous searches.
-
-Custom Backend: Replace placeholder API with a full backend system.
+│           └── api.ts          # Search API integration
+│   ├── App.tsx                 # Main application component
+│   ├── main.tsx                # Application bootstrap
+└── ... (configuration files)
+Planned Improvements
+Profile Management: Enable professionals to modify their information
+Enhanced Filtering: Search by specific skills, experience level, and geographic location
+Communication Tools: Direct messaging and connection features between users
+Analytics Dashboard: Profile performance insights and user engagement metrics
+Smart Suggestions: AI-powered professional recommendations based on search history
+Complete Backend System: Full server infrastructure to replace current API dependencies
