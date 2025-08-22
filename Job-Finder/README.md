@@ -21,24 +21,23 @@ React Router DOM - Client-side routing system for single-page application naviga
 
 🛠️ Setup Instructions
 Frontend Setup
-bash# Clone the repository
-git clone https://github.com/your-username/job-finder.git
+#navigate to frontend
 cd job-finder/frontend
 
-# Install dependencies
+#install dependencies
 npm install
 
-# Start development server
+#start the server
 npm run dev
 
 Backend Setup
-bash# Navigate to backend directory
+#navigate to backend
 cd backend
 
-# Install dependencies
+#install dependencies
 npm install
 
-# Start the server
+#start the server
 npm run dev
 
  Planned Features
